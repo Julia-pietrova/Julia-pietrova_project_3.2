@@ -1,0 +1,33 @@
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .input-group, .select-group, .button-group {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .form-element {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    background-color: #f8f9fa;
+    color: #343a40;
+    cursor: pointer;
+    border: none;
+  }
+  
+  @media (hover: hover) {
+    .submit-button:hover {
+        background-color: #e2e6ea;
+    }
+  }
+
+  
